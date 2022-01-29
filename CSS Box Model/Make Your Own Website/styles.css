@@ -1,0 +1,33 @@
+main{
+    text-align: center;
+}
+div {
+  display: inline-block;
+  background-color: #0a2c48;
+  width: 280px;
+  color: #fff;
+  padding: 16px 16px 16px 32px;
+  margin-top: 20px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+div:hover {
+  background-color: #2a4c68;
+}
+
+p {
+  color: #c9d6ff;
+  font-size: 18px;
+}
+
+.center {
+  margin: 20 auto;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
