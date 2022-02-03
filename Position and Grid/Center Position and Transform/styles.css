@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+.card {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 550px;
+  margin: auto;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.content {
+  padding: 20px;
+  position: absolute;
+  bottom: 80px;
+}
+
+.content h1 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+}
+.button {
+  display: inline;
+  position: relative;
+  text-align: center;
+  background-color: rgb(35, 197, 35);
+  width: 100px;
+  color: white;
+  padding: 10px;
+  float: right;
+  right: 30px;
+  top: 85%;
+}
+img {
+  position: absolute;
+  top: 0px;
+}
