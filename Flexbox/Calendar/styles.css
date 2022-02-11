@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+div,section{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+.container{
+    max-width: 65vw;
+    border: 1px solid red;
+}
+
+span{
+    border: 1px solid black;
+    font-size: 8px;
+}
+.week{
+    width: 70%;
+}
+.notes{
+    flex-direction: column;
+    width: 30%;
+    
+}
+.week span{
+    width: 20%;
+    padding: 10px;
+}
+.week .workweek, .week .weekend{
+    width: 100%;
+}
+
+.week .sunday,.week .saturday{
+    width: 50%;
+}
+.notes span{
+    height: 50%;
+}

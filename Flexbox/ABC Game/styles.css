@@ -1,0 +1,58 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 15vw;
+    height: 35rem;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+span{
+    border: 1px solid black;
+    width:50%;
+    padding: 25px;
+    text-align: center;
+
+}
+.first{
+    order: 0;
+}
+.second{
+    order: 1;
+}
+.third{
+    order: 2;
+}
+.forth{
+    order: 3;
+}
+.fifth{
+    order: 4;
+}
+.sixth{
+    order: 5;
+}
+.seventh{
+    order: 6;
+}
+.eighth{
+    order: 7;
+}
+.ninth{
+    order: 8;
+}
+.tenth{
+    order: 9;
+}
+.eleventh{
+    order: 10;
+}
+.twelveth{
+    order: 11;
+}
