@@ -1,0 +1,52 @@
+@import url(https://fonts.google.com/specimen/PT+Serif);
+
+html{
+    font-family: 'PT Serif', serif;
+}
+
+main{
+    padding: 1.25rem;
+    background-image: url(images/image1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    overflow: auto;
+}
+main .desc {
+    width: 50%;
+}
+main .desc .title{
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px dotted green;
+    margin-bottom: 0.5rem;
+}
+main .desc .subtitle{
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+main .desc .subtitle .right{
+    float: right;
+}
+
+main .desc .ingredients p{
+    margin: 0;
+}
+main .desc .ingredients p span{
+    color: green;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 2px 10px;
+}
+main img{
+    float: right;
+    width: 47%;
+}

@@ -1,0 +1,281 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+:root {
+  --color-blue-light: #6dbbcb;
+  --color-blue: #008cba;
+  --color-darkgray: #454545;
+  --color-beige: #eef0f1;
+  --color-darkgray-footer: #393f43;
+  --color-darkergray-footer: #2f3539;
+  --color-darkestgray-footer: #262b2f;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  color: var(--color-darkgray);
+}
+
+body {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Header */
+header {
+  padding: 1rem 12rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+header .title {
+  font-size: 24px;
+}
+header .title span {
+  color: var(--color-blue);
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+header nav ul li a {
+  color: var(--color-darkgray);
+  text-decoration: none;
+}
+header nav ul li {
+  padding: 5px 0;
+  font-size: 20px;
+}
+.active {
+  border-bottom: 4px solid var(--color-blue);
+}
+/* Main */
+/* Background */
+main {
+  position: relative;
+}
+main .background {
+  width: 100%;
+  height: 115vh;
+  background-image: url(images/slide2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .wrapper,
+main .promote{
+    position: absolute;
+    top: 16%;
+    left: 5%;
+}
+main .wrapper {
+  width: 40%;
+  height: 30vh;
+  background-color: black;
+  opacity: 0.3;
+}
+main .promote {
+  padding: 20px 15px 15px;
+}
+main .promote h1 {
+  color: white;
+  font-size: 52px;
+  line-height: 1.2;
+}
+main .promote button {
+  background-color: var(--color-blue);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 50%;
+  font-size: 26px;
+  margin-top: 0.75rem;
+  cursor: pointer;
+}
+
+/* Welcome */
+main .welcome {
+  padding: 3rem 12rem;
+  text-align: center;
+}
+main .welcome h1 {
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+main .welcome p {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+main .welcome button {
+  border: none;
+  background-color: var(--color-darkgray);
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+}
+main .welcome .line {
+  width: 107px;
+  height: 3px;
+  background-color: var(--color-blue-light);
+  margin: 0 auto 1rem;
+}
+/* Services */
+main .service_sect {
+  padding: 2rem 12rem;
+  background-color: var(--color-beige);
+}
+
+main .service_sect h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+main .service_sect .line {
+  width: 107px;
+  height: 3px;
+  background-color: var(--color-darkgray);
+  margin: 0 auto 1rem;
+}
+main .service_sect ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2.25rem;
+}
+
+main .service_sect ul li {
+  width: 32%;
+  background-color: white;
+  border-radius: 3px;
+  overflow: hidden;
+  text-align: center;
+}
+main .service_sect ul li img {
+  width: 100%;
+}
+main .service_sect ul li .content {
+  padding: 1.25rem 0.75rem;
+}
+main .service_sect ul li .content h2 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+}
+main .service_sect ul li .content p {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+main .service_sect ul li .content button {
+  border: none;
+  color: white;
+  background-color: var(--color-darkgray);
+  padding: 0.5rem 1.25rem;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+/* Footer */
+/* Subscribe */
+footer .subscribe {
+  padding: 3rem 12rem;
+  text-align: center;
+  background-color: var(--color-darkgray-footer);
+  color: white;
+}
+footer .subscribe h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+footer .subscribe .line {
+  width: 107px;
+  height: 3px;
+  background-color: white;
+  margin: 0 auto 1rem;
+}
+
+footer .subscribe p {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+footer .subscribe form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+}
+footer .subscribe form input {
+  width: 40%;
+  background-color: #545a5e;
+  border-radius: 3px;
+  border: none;
+  padding: 0.5rem;
+}
+footer .subscribe form input::placeholder {
+  font-style: italic;
+}
+footer .subscribe form button {
+  width: 15%;
+  padding: 0.5rem;
+  background-color: #6bbfff;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/* Links */
+footer .links {
+  padding: 3rem 12rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: var(--color-darkergray-footer);
+  color: white;
+}
+footer .links div h3 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+footer .links div ul li{
+    font-size: 16px;
+    line-height: 2;
+} 
+footer .links div ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .links div .fonts {
+    display: flex;
+    justify-content: space-between;
+}
+footer .links div .fonts i{
+    font-size: 20px;
+}
+/* Copy */
+
+footer .copy{
+    background-color: var(--color-darkestgray-footer);
+    color: white;
+    text-align: center;
+    padding: 1rem 12rem;
+}
+footer .copy span{
+    color: var(--color-blue);
+}

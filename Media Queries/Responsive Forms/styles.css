@@ -1,0 +1,63 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+form {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+form fieldset {
+  border: 1px solid grey;
+  background-color: rgb(241, 238, 235);
+  border-radius: 3px;
+}
+form p {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+form label {
+  font-weight: 600;
+  margin: 5px;
+}
+form button {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 2px 10px;
+}
+form p input {
+  padding: 5px 0;
+  padding-left: 25px;
+  width: 70%;
+}
+form p i {
+  position: absolute;
+  top: 20%;
+  left: 26%;
+}
+
+form legend {
+  border: 1px solid grey;
+  padding: 5px;
+  width: 40%;
+  background-color: rgb(241, 238, 235);
+}
+form p input:focus {
+  background-color: rgb(182, 236, 236);
+}
+
+@media (max-width: 1024px) {
+  form {
+    margin-top: 30px;
+  }
+  form p {
+    flex-direction: column;
+  }
+  form p i {
+    font-size: 14px;
+    top: 64%;
+    left: 1%;
+  }
+}

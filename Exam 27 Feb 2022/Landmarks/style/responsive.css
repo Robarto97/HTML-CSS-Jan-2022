@@ -1,0 +1,79 @@
+/* TODO */
+@media screen and (max-width:600px) {
+    /* Header */
+    header #top-bar > ul li:nth-child(4){
+        display: none;
+    }
+    header #main-menu{
+        text-align: center;
+    }
+    header #main-menu img{
+        float: none;
+        transform: translateX(-50%);
+        padding-left: unset;
+    }
+    header #main-menu ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        padding: unset;
+    }
+    header #main-menu ul li{
+        width: 20%;
+        border: 1px solid red;
+        margin-bottom: 0.5rem;
+    }
+    header #main-menu ul li:nth-child(6){
+        margin-bottom: unset;
+    }
+    /* Main */
+    /* Left Aside */
+    main #left-aside{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    main #left-aside article{
+        border-bottom: unset;
+    }
+    /* News */
+    main #news{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: unset;
+    }
+    main #news article{
+        width: 100%;
+        margin: unset;
+    }
+    main #news article h3{
+        font-size: 22px;
+    }
+    main #news article p{
+        font-size: 18px;
+    }
+    /* Right Aside */
+    main #right-aside {
+        width: 91%;
+        margin: 25px 0;
+        padding-left: 15px;
+    }
+    /* Footer */
+    footer{
+        padding: 20px 0;
+    }
+    footer ul{
+        display: block;
+        margin: 15px 10px 0;
+        width: unset;
+    }
+    footer ul li{
+        line-height: 1.4;
+    }
+}
